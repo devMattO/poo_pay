@@ -1,0 +1,71 @@
+@import 'partials/reset';
+@import 'partials/clearfix';
+
+$main_font: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$color4: #CCEBF1;
+$color3: #DAF3F8;
+$color2: #EEFCFF;
+$color1: #FFFFFF;
+$dark-color: #333333;
+
+
+body {
+  background: $color4;
+  font-family: $main_font;
+}
+
+#container{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-direction: column;
+
+}
+
+#h1_poopay{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: lighter;
+  font-family: $main_font;
+  font-size: 5em;
+}
+
+#contentDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#startButtonDiv{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+#startButton{
+  display: flex;
+  padding-left: 35%;
+  height:200px;
+  width: 100%;
+  border: 1px solid $dark-color;
+  border-radius: 30%;
+  font-weight: lighter;
+  font-family: $main_font;
+  font-weight: lighter;
+  font-size: 30px;
+  background-color: $color2;
+  text-align: center;
+  transition: width 0.5s, height 0.5s;
+}
+
+#startButton:hover {
+  height:201px;
+  padding-left: 35%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#startButton:active {
+  transform: translateY(4px);
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 13px 45px 0 rgba(0,0,0,0.19);
+
+}

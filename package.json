@@ -1,0 +1,26 @@
+{
+  "name": "poo_pay",
+  "version": "1.0.0",
+  "description": "An app that tells you how much you made at work while using the restroom facilities. variables: hourly wage how much time spent going to the bathroom(Hours?Minutes?)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.2.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devMattO/poo_pay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devMattO/poo_pay/issues"
+  },
+  "homepage": "https://github.com/devMattO/poo_pay#readme"
+}
