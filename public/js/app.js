@@ -19,13 +19,17 @@ startButtonDiv.appendChild(startButton);
 contentDiv.appendChild(startButtonDiv);
 
 var timer_div = document.createElement('div');
-timer_div.id = timer_div;
-timer_div.innerHTML = '';//some dynamic shit here
-contentDiv.appendChild(timer_div);
+timer_div.id = 'timer_div';
+timer_div.innerHTML = '00:00:00';//some dynamic shit here
+container.appendChild(timer_div);
 
 container.appendChild(contentDiv);
 
+function timer(){
+  for(var i = 0; i < 60; i++){
 
+  }
+};
 
 
 
